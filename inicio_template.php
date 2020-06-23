@@ -1,5 +1,5 @@
 <body>
-    <div class="container">
+    <div class="container" style="position:relative;">
         <div class="row deskslider" style="margin-top: 5vh;">
             <div class="col">
                 <div class="carousel slide" data-ride="carousel" id="carousel-1">
