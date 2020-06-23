@@ -1,8 +1,23 @@
 * {
-  font-family: Roboto;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
 }
+
 
 .card {
   margin-bottom: 5%;
 }
 
+
+@media (max-width:768px) {
+  .slider-desk{
+    display: none!important;
+    background-color: black;
+  }
+}
+
+@media(min-width:1200px){
+  .first-selector{
+    margin-left:3%;
+  }
+}
