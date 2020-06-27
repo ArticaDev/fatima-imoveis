@@ -21,3 +21,9 @@ font-weight: 300;
     margin-left:3%;
   }
 }
+
+@media(max-width:768px){
+  #coldesc{
+    margin-top:5vh
+  }
+}
