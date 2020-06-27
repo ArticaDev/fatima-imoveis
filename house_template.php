@@ -6,13 +6,13 @@
                 <div role="listbox" class="carousel-inner d-flex">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col d-flex justify-content-center"><img src="pexels-photo-323780.jpeg" style="height: 300px;" /></div>
+                            <div class="col d-flex justify-content-center"><img src="/assets/img/pexels-photo-323780.jpeg" style="height: 300px;" /></div>
                         </div>
                     </div>
                 </div>
-                <div><a href="#carousel-1" role="button" data-slide="prev" class="carousel-control-prev" style="margin-right: 0px;margin-left: 10%;"><span class="carousel-control-prev-icon" style="background-image: url('Rectangle 32.png');"></span><span class="sr-only">Previous</span></a>
+                <div><a href="#carousel-1" role="button" data-slide="prev" class="carousel-control-prev" style="margin-right: 0px;margin-left: 10%;"><span class="carousel-control-prev-icon" style="background-image: url('/assets/img/Rectangle 32.png');"></span><span class="sr-only">Previous</span></a>
                     <a
-                        href="#carousel-1" role="button" data-slide="next" class="carousel-control-next" style="margin-right: 10%;"><span class="carousel-control-next-icon" style="background-image: url('Rectangle 31.png');"></span><span class="sr-only">Next</span></a>
+                        href="#carousel-1" role="button" data-slide="next" class="carousel-control-next" style="margin-right: 10%;"><span class="carousel-control-next-icon" style="background-image: url('/assets/img/Rectangle 31.png');"></span><span class="sr-only">Next</span></a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <div class="col d-flex flex-row justify-content-center align-items-center align-items-xl-center" style="height: 54px;"><i class="la la-bed" style="font-size: 36px;margin-left: 3%;"></i>
                     <h3 style="margin: 0px;margin-left: 15px;">3 Quartos</h3>
                 </div>
-                <div class="col d-flex flex-row justify-content-center align-items-center align-items-xl-center" style="height: 54px;"><i class="fas fa-bath" style="font-size: 36px;margin-left: 3%;"></i>
+                <div class="col d-flex flex-row justify-content-center align-items-center align-items-xl-center" style="height: 54px;"><i class="las la-bath" style="font-size: 36px;margin-left: 3%;"></i>
                     <h3 style="margin: 0px;margin-left: 15px;">3 Banheiros</h3>
                 </div>
                 <div class="col d-flex flex-row justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="height: 54px;"><i class="la la-money" style="font-size: 36px;margin-left: 3%;color: rgb(58,204,160);"></i>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col d-flex justify-content-center align-items-center" style="margin-top: 5vh;"><a style="color:transparent; " href="https://api.whatsapp.com/send?phone=5517981093483&text=Ol%C3%A1!%20Eu%20tenho%20interesse%20em%20comprar%20uma%20casa!"><img src="Botão.png" style="width: 250px;" /></a></div>
+                <div class="col d-flex justify-content-center align-items-center" style="margin-top: 5vh;"><a style="color:transparent; " href="https://api.whatsapp.com/send?phone=5517981093483&text=Ol%C3%A1!%20Eu%20tenho%20interesse%20em%20comprar%20uma%20casa!"><img src="/assets/img/Botão.png" style="width: 250px;" /></a></div>
             </div>
         </div>
     </div>
