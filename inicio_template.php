@@ -1,7 +1,7 @@
 <body>
   <div class="container">
       <!-- Start: Slider -->
-      <div class="row deskslider" style="margin-top: 5vh; display:none;">
+      <div class="row deskslider" style="margin-top: 5vh;">
           <div class="col">
               <div class="carousel slide" data-ride="carousel" id="carousel-1">
                   <div class="carousel-inner" role="listbox">
@@ -15,12 +15,12 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><i class="icon ion-ios-home-outline" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><i class="las la-home" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>Bairro&nbsp;</h2>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="la la-money" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>R$250.000</h2>
                                       </div>
                                   </div>
@@ -30,7 +30,7 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="fas fa-shower" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>2 Banheiros</h2>
                                       </div>
                                   </div>
@@ -47,22 +47,22 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="fa fa-home" style="font-size: 39px;margin-right: 5%;color: rgb(33,138,242);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-home" style="font-size: 39px;margin-right: 5%;color: rgb(33,138,242);"></i>
                                           <h2>Bairro&nbsp;</h2>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="fa fa-dollar" style="font-size: 39px;margin-right: 5%;color: rgb(50,244,46);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(50,244,46);"></i>
                                           <h2>R$350.000</h2>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="fa fa-bed" style="font-size: 39px;margin-right: 5%;color: rgb(244,215,64);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(244,215,64);"></i>
                                           <h2>4 Quartos</h2>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="fa fa-bath" style="font-size: 39px;margin-right: 5%;color: rgb(255,139,56);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(255,139,56);"></i>
                                           <h2>3 Banheiros</h2>
                                       </div>
                                   </div>
@@ -109,12 +109,12 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="icon ion-ios-home-outline" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-money" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>R$250.000</h4>
       </div>
   </div>
@@ -124,7 +124,7 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="fas fa-shower" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
@@ -160,12 +160,12 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="icon ion-ios-home-outline" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-money" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>R$250.000</h4>
       </div>
   </div>
@@ -175,7 +175,7 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="fas fa-shower" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
@@ -211,12 +211,12 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="icon ion-ios-home-outline" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-money" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>R$250.000</h4>
       </div>
   </div>
@@ -226,7 +226,7 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="fas fa-shower" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
@@ -262,12 +262,12 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="icon ion-ios-home-outline" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-money" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>R$250.000</h4>
       </div>
   </div>
@@ -277,7 +277,7 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="fas fa-shower" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
@@ -313,12 +313,12 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="icon ion-ios-home-outline" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-money" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>R$250.000</h4>
       </div>
   </div>
@@ -328,7 +328,7 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="fas fa-shower" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
@@ -364,12 +364,12 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="icon ion-ios-home-outline" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-money" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>R$250.000</h4>
       </div>
   </div>
@@ -379,7 +379,7 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="fas fa-shower" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>

@@ -1,5 +1,5 @@
 <!-- Start: Footer -->
-<div class="social-icons" style="background-color: rgb(155,21,25);height: 260px;margin-top: 5%; width:100%!important;">
+<div class="social-icons" style="background-color: rgb(155,21,25);height: 200px;margin-top: 5%; width:100%!important;">
 <div class="row">
     <div class="col-12 d-flex justify-content-center align-items-center" style="padding:0px;">
       <a href="https://www.instagram.com/fatima.lima.imoveis/"><i class="icon ion-social-instagram-outline" style="color: rgb(255,255,255);"></i></a><a href="#"><i class="icon ion-email" style="color: rgb(255,255,255);"></i></a><a href="https://www.facebook.com/profile.php?id=100051747426880"><i class="icon ion-social-facebook" style="color: rgb(255,255,255);"></i></a>

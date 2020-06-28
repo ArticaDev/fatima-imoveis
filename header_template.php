@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Fátima Imóveis</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
@@ -37,11 +37,11 @@
     <!-- End: Header - Mobile -->
     <!-- Start: Search -->
     <div class="row" id="searchbar" style="background-color: #9b1519; display:none;">
-        <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Localização</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></div>
-        <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Quartos</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></div>
-        <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Banheiros</option><option value="13">This is item 2</option><option value="14">This is item 3</option></select></div>
-        <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="width: 100%;height: 40px;margin: 5%;" placeholder="Valor Máx."></div>
+        <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Localização</option><option value="13">Bairro 1</option><option value="14">Bairro 2</option></select></div>
+        <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Quartos</option><option value="13">1 Quarto</option><option value="14">2 Quartos</option><option value="15">3+ Quartos</option></select></div>
+        <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Banheiros</option><option value="13">1 Banheiro</option><option value="14">2 Banheiros</option><option value="15">3+ Banheiros</option></select></div>
         <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="width: 100%;height: 40px;margin: 5%;" placeholder="Valor Mín."></div>
+        <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="width: 100%;height: 40px;margin: 5%;" placeholder="Valor Max."></div>
         <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><button class="btn border rounded shadow" type="button" style="background-color: #ffffff;width: 90%;margin: 5%;margin-top: 5%;margin-bottom: 5%;margin-right: 5%;height: 40px;">Pesquisar</button></div>
     </div>
     <!-- End: Search -->

@@ -1,4 +1,6 @@
 $(function(){
+
+  //color navbar change
 var tela = window.innerWidth
   $(window).scroll(function(){
     if ($(window).scrollTop() > 10) {
@@ -26,17 +28,17 @@ var tela = window.innerWidth
     $("#searchbar").slideUp()
     if (tela>1199){
       $(".deskslider").fadeIn("slow")}
-    $("html, body").animate({ scrollTop: 0}, 500)
+    $("html, body").animate({ scrollTop: 0}, "slow")
     $(".nav").find(".active").removeClass("active")
     $(".home").addClass("active")
   })
 
   $("#imoveis").click(function(){
-$("html, body").animate({ scrollTop:0}, 500)
+$("html, body").animate({ scrollTop:0}, "slow")
   })
 
   $("#contato").click(function(){
-$("html, body").animate({ scrollTop: $(document).height() }, 500)
+$("html, body").animate({ scrollTop: $(document).height() }, "slow")
   })
 
 })
