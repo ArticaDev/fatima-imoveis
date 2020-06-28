@@ -6,7 +6,7 @@
         <a
             href="https://api.whatsapp.com/send?phone=5517981093483&text=Ol%C3%A1!%20Eu%20tenho%20interesse%20em%20comprar%20uma%20casa!"><i class="icon ion-social-whatsapp-outline" style="color: rgb(255,255,255);"></i></a><a style="width: 80px;height: 60px;" href="https://www.olx.com.br/perfil/fatima-lima-2a1d3396"><img src="/assets/img/olx_logo_freelogovectors.net_-white.png" style="width: 60px;" /></a></div>
 </div>
-<a href="https://articadev.com"><p style="margin-top: 3vh;color: rgb(255,255,255);font-size: 1.25em;">Desenvolvido por Artica</p></a>
+<a style="text-decoration:none;" href="https://articadev.com"><p style="margin-top: 3vh;color: rgb(255,255,255);font-size: 1.25em;">Desenvolvido por Artica</p></a>
 </div>
 <!-- End: Footer -->
 <script src="assets/js/jquery.min.js"></script>

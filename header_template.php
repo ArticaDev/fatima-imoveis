@@ -29,7 +29,7 @@
                         <li class="nav-item" role="presentation"><a class="nav-link active home" href="#">Home</a></li>
                         <li class="nav-item" role="presentation"><a id="imoveis" class="nav-link search" href="#">Imóveis</a></li>
                         <li class="nav-item" role="presentation"><a id="contato" class="nav-link" href="#">Contato</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-search search"></i></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link btn"><i class="fa fa-search search"></i></a></li>
                     </ul>
             </div>
     </div>
@@ -40,9 +40,9 @@
         <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Localização</option><option value="13">Bairro 1</option><option value="14">Bairro 2</option></select></div>
         <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Quartos</option><option value="13">1 Quarto</option><option value="14">2 Quartos</option><option value="15">3+ Quartos</option></select></div>
         <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select class="shadow" style="width: 100%;height: 40px;margin: 3%;"><option value="12" selected="">Banheiros</option><option value="13">1 Banheiro</option><option value="14">2 Banheiros</option><option value="15">3+ Banheiros</option></select></div>
-        <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="width: 100%;height: 40px;margin: 5%;" placeholder="Valor Mín."></div>
-        <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="width: 100%;height: 40px;margin: 5%;" placeholder="Valor Max."></div>
-        <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><button class="btn border rounded shadow" type="button" style="background-color: #ffffff;width: 90%;margin: 5%;margin-top: 5%;margin-bottom: 5%;margin-right: 5%;height: 40px;">Pesquisar</button></div>
+        <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="padding-left: 3%;width: 100%;height: 40px;margin: 5%;" placeholder="Valor Mín."></div>
+        <div class="col d-xl-flex align-items-xl-center"><input class="shadow" type="text" style="padding-left: 3%;width: 100%;height: 40px;margin: 5%;" placeholder="Valor Máx."></div>
+        <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><button class="btn border rounded shadow" type="button" style="font-size:.8em;background-color: #ffffff;width: 90%;margin:5%;height: 40px;">Pesquisar</button></div>
     </div>
     <!-- End: Search -->
     </div>
