@@ -11,7 +11,7 @@
                               <div class="col" style="margin-right: 10vw;">
                                   <div class="row d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
                                       <div class="col d-xl-flex justify-content-xl-center">
-                                          <h1 style="color: #9b1519;font-weight: 300;">CASA - 1</h1>
+                                          <h1 style="color: #9b1519;font-weight: 300;">Casa - 1</h1>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
@@ -20,18 +20,19 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
+
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                        <h2>3 Quartos</h2>
+                                    </div>
+                                  </div>
+                                  <div class="row" style="margin-bottom: 3%;">
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                        <h2>2 Banheiros</h2>
+                                    </div>
+                                  </div>
+                                  <div class="row" style="margin-bottom: 3%;">
                                       <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>R$250.000</h2>
-                                      </div>
-                                  </div>
-                                  <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>3 Quartos</h2>
-                                      </div>
-                                  </div>
-                                  <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>2 Banheiros</h2>
                                       </div>
                                   </div>
                               </div>
@@ -43,7 +44,7 @@
                               <div class="col" style="margin-right: 10vw;">
                                   <div class="row d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
                                       <div class="col d-xl-flex justify-content-xl-center">
-                                          <h1 style="color: #9b1519;">CASA - 2</h1>
+                                          <h1 style="color: #9b1519; font-weight: 300;">Casa - 2</h1>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
@@ -52,18 +53,20 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(50,244,46);"></i>
-                                          <h2>R$350.000</h2>
-                                      </div>
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(244,215,64);"></i>
+                                        <h2>4 Quartos</h2>
+                                    </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(244,215,64);"></i>
-                                          <h2>4 Quartos</h2>
-                                      </div>
-                                  </div>
-                                  <div class="row" style="margin-bottom: 3%;">
+
                                       <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(255,139,56);"></i>
                                           <h2>3 Banheiros</h2>
+                                      </div>
+                                  </div>
+                                  <div class="row" style="margin-bottom: 3%;">
+
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(50,244,46);"></i>
+                                          <h2>R$350.000</h2>
                                       </div>
                                   </div>
                               </div>
@@ -82,7 +85,7 @@
       <!-- End: Slider -->
       <!-- Start: Card Group -->
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3" style="margin-top: 5vh;">
-          <div class="col"><!-- Card -->
+          <div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
@@ -105,17 +108,12 @@
 <div class="col" style="margin-right: 10vw;">
   <div class="row d-flex flex-column justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">CASA - 1</h2>
+          <h2 style="color: #9b1519;">Casa - 1</h2>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
       <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>Bairro </h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>R$250.000</h4>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
@@ -128,21 +126,74 @@
           <h4>2 Banheiros</h4>
       </div>
   </div>
+  <div class="row" style="margin-bottom: 0%;">
+      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
+">R$ 250.000</h4></button>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col" style="margin-bottom:3%"><!-- Card -->
+<div class="card">
+
+<!-- Card image -->
+<div class="simple-slider card-img-top">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:230px;"></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
+<div class="swiper-button-next"  style="background-image: url(assets/img/Rectangle%2031.png)"></div>
 </div>
 </div>
 
+<!-- Card content -->
+<div class="card-body">
+
+<div class="col" style="margin-right: 10vw;">
+<div class="row d-flex flex-column justify-content-center align-items-center">
+<div class="col d-flex justify-content-center align-items-center">
+<h2 style="color: #9b1519;">Casa - 1</h2>
 </div>
-<!-- Card --></div>
-          <div class="col"><!-- Card -->
+</div>
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>Bairro </h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>3 Quartos</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center"><i class="las la-ruler-horizontal" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>150 m²</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 0%;">
+<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
+">R$ 250.000</h4></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>          <div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
   <div class="simple-slider card-img-top">
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -156,7 +207,7 @@
 <div class="col" style="margin-right: 10vw;">
   <div class="row d-flex flex-column justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">CASA - 1</h2>
+          <h2 style="color: #9b1519;">Casa - 1</h2>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
@@ -165,35 +216,33 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>R$250.000</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>3 Quartos</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
       <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
+  <div class="row" style="margin-bottom: 3%;">
+      <div class="col d-flex justify-content-center"><i class="las la-swimming-pool" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h4>Área de Lazer</h4>
+      </div>
+  </div>
+  <div class="row" style="margin-bottom: 0%;">
+      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
+">R$ 250.000</h4></button>
+      </div>
+  </div>
 </div>
 </div>
-
 </div>
-<!-- Card --></div>
-          <div class="col"><!-- Card -->
+</div>          <div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
   <div class="simple-slider card-img-top">
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -207,7 +256,7 @@
 <div class="col" style="margin-right: 10vw;">
   <div class="row d-flex flex-column justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">CASA - 1</h2>
+          <h2 style="color: #9b1519;">Casa - 1</h2>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
@@ -216,178 +265,124 @@
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>R$250.000</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>3 Quartos</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
       <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
           <h4>2 Banheiros</h4>
       </div>
   </div>
+  <div class="row" style="margin-bottom: 3%;">
+      <div class="col d-flex justify-content-center"><i class="la la-car" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h4>Com Garagem</h4>
+      </div>
+  </div>
+  <div class="row" style="margin-bottom: 0%;">
+      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
+">R$ 250.000</h4></button>
+      </div>
+  </div>
 </div>
 </div>
-
 </div>
-<!-- Card --></div>
-          <div class="col"><!-- Card -->
+</div>
+<div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
-  <div class="simple-slider card-img-top">
-  <div class="swiper-container">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
-      <div class="swiper-button-next"  style="background-image: url(assets/img/Rectangle%2031.png)"></div>
-  </div>
+<div class="simple-slider card-img-top">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
+<div class="swiper-button-next"  style="background-image: url(assets/img/Rectangle%2031.png)"></div>
+</div>
 </div>
 
 <!-- Card content -->
 <div class="card-body">
 
 <div class="col" style="margin-right: 10vw;">
-  <div class="row d-flex flex-column justify-content-center align-items-center">
-      <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">CASA - 1</h2>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Bairro </h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>R$250.000</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>3 Quartos</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>2 Banheiros</h4>
-      </div>
-  </div>
+<div class="row d-flex flex-column justify-content-center align-items-center">
+<div class="col d-flex justify-content-center align-items-center">
+<h2 style="color: #9b1519;">Casa - 1</h2>
 </div>
 </div>
-
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>Bairro </h4>
 </div>
-<!-- Card --></div>
-          <div class="col"><!-- Card -->
+</div>
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>3 Quartos</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>2 Banheiros</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 0%;">
+<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
+">R$ 250.000</h4></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
-  <div class="simple-slider card-img-top">
-  <div class="swiper-container">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
-      <div class="swiper-button-next"  style="background-image: url(assets/img/Rectangle%2031.png)"></div>
-  </div>
+<div class="simple-slider card-img-top">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
+<div class="swiper-button-next"  style="background-image: url(assets/img/Rectangle%2031.png)"></div>
+</div>
 </div>
 
 <!-- Card content -->
 <div class="card-body">
 
 <div class="col" style="margin-right: 10vw;">
-  <div class="row d-flex flex-column justify-content-center align-items-center">
-      <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">CASA - 1</h2>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Bairro </h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>R$250.000</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>3 Quartos</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>2 Banheiros</h4>
-      </div>
-  </div>
+<div class="row d-flex flex-column justify-content-center align-items-center">
+<div class="col d-flex justify-content-center align-items-center">
+<h2 style="color: #9b1519;">Casa - 1</h2>
 </div>
 </div>
-
-</div>
-<!-- Card --></div>
-          <div class="col"><!-- Card -->
-<div class="card">
-
-<!-- Card image -->
-  <div class="simple-slider card-img-top">
-  <div class="swiper-container">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
-      <div class="swiper-button-next"  style="background-image: url(assets/img/Rectangle%2031.png)"></div>
-  </div>
-</div>
-
-<!-- Card content -->
-<div class="card-body">
-
-<div class="col" style="margin-right: 10vw;">
-  <div class="row d-flex flex-column justify-content-center align-items-center">
-      <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">CASA - 1</h2>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Bairro </h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-wallet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>R$250.000</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>3 Quartos</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>2 Banheiros</h4>
-      </div>
-  </div>
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>Bairro </h4>
 </div>
 </div>
-
+<div class="row" style="margin-bottom: 3%;">
+<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h4>3 Quartos</h4>
 </div>
-<!-- Card --></div>
-      </div>
+</div>
+<div class="row" style="margin-bottom: 3%;">
+    <div class="col d-flex justify-content-center"><i class="la la-car" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+        <h4>Com Garagem</h4>
+    </div>
+</div>
+<div class="row" style="margin-bottom: 0%;">
+<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
+">R$ 250.000</h4></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
       <!-- End: Card Group -->
   </div>
+</div>
