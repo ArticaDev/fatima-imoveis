@@ -85,7 +85,7 @@
       <!-- End: Slider -->
       <!-- Start: Card Group -->
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3" style="margin-top: 5vh;">
-          <div class="col"><!-- Card -->
+          <div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
@@ -135,7 +135,7 @@
 </div>
 </div>
 </div>
-<div class="col"><!-- Card -->
+<div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
@@ -184,7 +184,7 @@
 </div>
 </div>
 </div>
-</div>          <div class="col"><!-- Card -->
+</div>          <div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
@@ -233,7 +233,7 @@
 </div>
 </div>
 </div>
-</div>          <div class="col"><!-- Card -->
+</div>          <div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
@@ -283,7 +283,7 @@
 </div>
 </div>
 </div>
-<div class="col"><!-- Card -->
+<div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
@@ -333,7 +333,7 @@
 </div>
 </div>
 </div>
-<div class="col"><!-- Card -->
+<div class="col" style="margin-bottom:3%"><!-- Card -->
 <div class="card">
 
 <!-- Card image -->
