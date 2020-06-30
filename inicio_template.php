@@ -48,24 +48,24 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-home" style="font-size: 39px;margin-right: 5%;color: rgb(33,138,242);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-home" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>Bairro&nbsp;</h2>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(244,215,64);"></i>
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                         <h2>4 Quartos</h2>
                                     </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
 
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(255,139,56);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>3 Banheiros</h2>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
 
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(50,244,46);"></i>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                           <h2>R$350.000</h2>
                                       </div>
                                   </div>
