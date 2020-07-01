@@ -22,7 +22,7 @@
     <div class="sticky-top">
         <!-- Start: Header - Mobile -->
         <nav class="navbar navbar-light navbar-expand-md" style="background-color: #f1f1f1;">
-            <div class="container-fluid"><a class="navbar-brand" href="#"><img class="home" src="assets/img/Prancheta%202%20cópia%2014.png" style="width: 180px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="background-image: url(&quot;assets/img/Hamburguer%20Button.svg&quot;);"></span></button>
+            <div class="container-fluid"><a class="navbar-brand" href="#"><img class="home" src="assets/img/Prancheta%202%20cópia%2014.svg" style="width: 180px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="background-image: url(&quot;assets/img/Hamburguer%20Button.svg&quot;);"></span></button>
                 <div
                     class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navcol-1">
                     <ul class="nav navbar-nav">
