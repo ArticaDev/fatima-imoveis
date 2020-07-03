@@ -28,7 +28,7 @@
                         <li class="nav-item" role="presentation"><a class="nav-link active home" href="#">Home</a></li>
                         <li class="nav-item" role="presentation"><a id="imoveis" class="nav-link search" href="#">Imóveis</a></li>
                         <li class="nav-item" role="presentation"><a id="contato" class="nav-link" href="#">Contato</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link btn"><i class="fa fa-search search"></i></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link btn"><i class="las la-search search"></i></a></li>
                     </ul>
             </div>
     </div>
