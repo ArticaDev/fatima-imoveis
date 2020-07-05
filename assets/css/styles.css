@@ -35,8 +35,8 @@ body{
 
 @media(max-width:768px){
   #coldesc{
-    margin-top:5vh
-  }
+    margin-top:5vh;
+  }}
 
 .navbar{
   background-color: #f1f1f1;
@@ -48,4 +48,9 @@ body{
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
     transition: .5s;
 
+}
+
+h6{
+  margin-bottom: 0px!important;
+  font-size:18px;
 }

@@ -7,7 +7,7 @@
                   <div class="carousel-inner" role="listbox">
                       <div class="carousel-item active">
                           <div class="row">
-                              <div class="col-xl-4 d-flex flex-column justify-content-xl-center align-items-xl-center" style="margin-left: 10vw;padding: 0px;"><img src="assets/img/pexels-photo-323780.jpeg" style="width: 100%;"></div>
+                              <div class="col-xl-4 d-flex flex-column justify-content-xl-center align-items-xl-center" style="margin-left: 10vw;padding: 0px;"><img src="assets/img/pexels-photo-323780.jpeg" style="width: 380px; height:250px;"></div>
                               <div class="col" style="margin-right: 10vw;">
                                   <div class="row d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
                                       <div class="col d-xl-flex justify-content-xl-center">
@@ -15,24 +15,24 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><i class="las la-home" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>Bairro&nbsp;</h2>
+                                      <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><i class="las la-home" style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                          <h4>Bairro</h4>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
 
-                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                        <h2>3 Quartos</h2>
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                        <h4>3 Quartos</h4>
                                     </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                    <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                        <h2>2 Banheiros</h2>
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                        <h4>2 Banheiros</h4>
                                     </div>
                                   </div>
-                                  <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>R$250.000</h2>
+                                  <div class="row" style="margin-bottom: 0%;">
+                                      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 70%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+                                ">R$ 250.000</h5></button>
                                       </div>
                                   </div>
                               </div>
@@ -40,7 +40,7 @@
                       </div>
                       <div class="carousel-item">
                           <div class="row">
-                              <div class="col-xl-4 d-flex flex-column justify-content-xl-center align-items-xl-center" style="margin-left: 10vw;"><img src="assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg" style="width: 100%;"></div>
+                              <div class="col-xl-4 d-flex flex-column justify-content-xl-center align-items-xl-center" style="margin-left: 10vw;"><img src="assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg" style="width: 380px; height:250px;"></div>
                               <div class="col" style="margin-right: 10vw;">
                                   <div class="row d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
                                       <div class="col d-xl-flex justify-content-xl-center">
@@ -48,25 +48,24 @@
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-home" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>Bairro&nbsp;</h2>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-home" style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                          <h4>Bairro</h4>
                                       </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
-                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                        <h2>4 Quartos</h2>
+                                    <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed" style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                        <h4>4 Quartos</h4>
                                     </div>
                                   </div>
                                   <div class="row" style="margin-bottom: 3%;">
 
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>3 Banheiros</h2>
+                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet" style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                          <h4>3 Banheiros</h4>
                                       </div>
                                   </div>
-                                  <div class="row" style="margin-bottom: 3%;">
-
-                                      <div class="col d-xl-flex justify-content-xl-center"><i class="las la-wallet" style="font-size: 39px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                          <h2>R$350.000</h2>
+                                  <div class="row" style="margin-bottom: 0%;">
+                                      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 70%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+                                ">R$ 250.000</h5></button>
                                       </div>
                                   </div>
                               </div>
@@ -92,9 +91,9 @@
   <div class="simple-slider card-img-top">
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:226px;"></div>
+          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:226px;"></div>
+          <div class="swiper-slide" style="background-image:url(assets/img/pexels-photo-323780.jpeg); height:226px;"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -108,27 +107,27 @@
 <div class="col" style="margin-right: 10vw;">
   <div class="row d-flex flex-column justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">Casa - 1</h2>
+          <h4 class="text-center" style="color: #9b1519; margin-bottom:8%;">Casa mobiliada com varanda</h4>
+      </div>
+  </div>
+  <div class="row" style="margin-bottom: 5%;">
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h6>Bairro América</h6>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Bairro </h4>
+      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h5 class="text-center">3 Quartos</h5>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>3 Quartos</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>2 Banheiros</h4>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h5 class="text-center">2 Banheiros</h5>
       </div>
   </div>
   <div class="row" style="margin-bottom: 0%;">
-      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
-">R$ 250.000</h4></button>
+      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+">R$ 250.000</h5></button>
       </div>
   </div>
 </div>
@@ -142,9 +141,9 @@
 <div class="simple-slider card-img-top">
 <div class="swiper-container">
 <div class="swiper-wrapper">
-<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:230px;"></div>
-<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:230px;"></div>
-<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:226px;"></div>
+<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:226px;"></div>
+<div class="swiper-slide" style="background-image:url(assets/img/brown-and-gray-painted-house-in-front-of-road-1396122.jpg); height:226px;"></div>
 </div>
 <div class="swiper-pagination"></div>
 <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -158,27 +157,27 @@
 <div class="col" style="margin-right: 10vw;">
 <div class="row d-flex flex-column justify-content-center align-items-center">
 <div class="col d-flex justify-content-center align-items-center">
-<h2 style="color: #9b1519;">Casa - 1</h2>
+<h4 class="text-center" style="color: #9b1519; margin-bottom:8%;">Casa mobiliada com varanda</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 5%;">
+<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h6>Cidade Antônio Estevão de Carvalho</h6>
 </div>
 </div>
 <div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>Bairro </h4>
+<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h5 class="text-center">3 Quartos</h5>
 </div>
 </div>
 <div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>3 Quartos</h4>
-</div>
-</div>
-<div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center"><i class="las la-ruler-horizontal" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>150 m²</h4>
+<div class="col d-flex justify-content-center"><i class="las la-ruler-horizontal" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h5 class="text-center">150 m²</h5>
 </div>
 </div>
 <div class="row" style="margin-bottom: 0%;">
-<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
-">R$ 250.000</h4></button>
+<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+">R$ 250.000</h5></button>
 </div>
 </div>
 </div>
@@ -191,9 +190,9 @@
   <div class="simple-slider card-img-top">
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -207,27 +206,27 @@
 <div class="col" style="margin-right: 10vw;">
   <div class="row d-flex flex-column justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">Casa - 1</h2>
+          <h4 class="text-center" style="color: #9b1519; margin-bottom:8%;">Casa mobiliada com varanda</h4>
+      </div>
+  </div>
+  <div class="row" style="margin-bottom: 5%;">
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h6>Cidade Antônio Estevão de Carvalho</h6>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Bairro </h4>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h5 class="text-center">2 Banheiros</h5>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>2 Banheiros</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-swimming-pool" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Área de Lazer</h4>
+      <div class="col d-flex justify-content-center"><i class="las la-swimming-pool" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h5 class="text-center">Área de Lazer</h5>
       </div>
   </div>
   <div class="row" style="margin-bottom: 0%;">
-      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
-">R$ 250.000</h4></button>
+      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+">R$ 250.000</h5></button>
       </div>
   </div>
 </div>
@@ -240,9 +239,9 @@
   <div class="simple-slider card-img-top">
   <div class="swiper-container">
       <div class="swiper-wrapper">
-          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+          <div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
       </div>
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -256,27 +255,27 @@
 <div class="col" style="margin-right: 10vw;">
   <div class="row d-flex flex-column justify-content-center align-items-center">
       <div class="col d-flex justify-content-center align-items-center">
-          <h2 style="color: #9b1519;">Casa - 1</h2>
+          <h4 class="text-center" style="color: #9b1519; margin-bottom:8%;">Casa mobiliada com varanda</h4>
+      </div>
+  </div>
+  <div class="row" style="margin-bottom: 5%;">
+      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h6>Cidade Antônio Estevão de Carvalho</h6>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Bairro </h4>
+      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h5 class="text-center">2 Banheiros</h5>
       </div>
   </div>
   <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>2 Banheiros</h4>
-      </div>
-  </div>
-  <div class="row" style="margin-bottom: 3%;">
-      <div class="col d-flex justify-content-center"><i class="la la-car" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-          <h4>Com Garagem</h4>
+      <div class="col d-flex justify-content-center"><i class="la la-car" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+          <h5 class="text-center">Com Garagem</h5>
       </div>
   </div>
   <div class="row" style="margin-bottom: 0%;">
-      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
-">R$ 250.000</h4></button>
+      <div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+">R$ 250.000</h5></button>
       </div>
   </div>
 </div>
@@ -290,9 +289,9 @@
 <div class="simple-slider card-img-top">
 <div class="swiper-container">
 <div class="swiper-wrapper">
-<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
 </div>
 <div class="swiper-pagination"></div>
 <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -306,27 +305,27 @@
 <div class="col" style="margin-right: 10vw;">
 <div class="row d-flex flex-column justify-content-center align-items-center">
 <div class="col d-flex justify-content-center align-items-center">
-<h2 style="color: #9b1519;">Casa - 1</h2>
+<h4 class="text-center" style="color: #9b1519; margin-bottom:8%;">Casa mobiliada com varanda</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 5%;">
+<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h6>Cidade Antônio Estevão de Carvalho</h6>
 </div>
 </div>
 <div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>Bairro </h4>
+<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h5 class="text-center">3 Quartos</h5>
 </div>
 </div>
 <div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>3 Quartos</h4>
-</div>
-</div>
-<div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>2 Banheiros</h4>
+<div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h5 class="text-center">2 Banheiros</h5>
 </div>
 </div>
 <div class="row" style="margin-bottom: 0%;">
-<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
-">R$ 250.000</h4></button>
+<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+">R$ 250.000</h5></button>
 </div>
 </div>
 </div>
@@ -340,9 +339,9 @@
 <div class="simple-slider card-img-top">
 <div class="swiper-container">
 <div class="swiper-wrapper">
-<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
-<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:230px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
+<div class="swiper-slide" style="background-image:url(https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); height:226px;"></div>
 </div>
 <div class="swiper-pagination"></div>
 <div class="swiper-button-prev" style="background-image: url(assets/img/Rectangle%2032.png)"></div>
@@ -356,27 +355,27 @@
 <div class="col" style="margin-right: 10vw;">
 <div class="row d-flex flex-column justify-content-center align-items-center">
 <div class="col d-flex justify-content-center align-items-center">
-<h2 style="color: #9b1519;">Casa - 1</h2>
+<h4 class="text-center" style="color: #9b1519; margin-bottom:8%;">Casa mobiliada com varanda</h4>
+</div>
+</div>
+<div class="row" style="margin-bottom: 5%;">
+<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h6>Cidade Antônio Estevão de Carvalho</h6>
 </div>
 </div>
 <div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center align-items-center"><i class="las la-home" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>Bairro </h4>
+<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+<h5 class="text-center">3 Quartos</h5>
 </div>
 </div>
 <div class="row" style="margin-bottom: 3%;">
-<div class="col d-flex justify-content-center"><i class="la la-bed" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-<h4>3 Quartos</h4>
-</div>
-</div>
-<div class="row" style="margin-bottom: 3%;">
-    <div class="col d-flex justify-content-center"><i class="la la-car" style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
-        <h4>Com Garagem</h4>
+    <div class="col d-flex justify-content-center"><i class="la la-car" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+        <h5 class="text-center">Com Garagem</h5>
     </div>
 </div>
 <div class="row" style="margin-bottom: 0%;">
-<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 24px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h4 style="  display: inline;
-">R$ 250.000</h4></button>
+<div class="col d-flex justify-content-center"><button class="btn btn-primary" type="button" style="font-size: 22px;background-color: rgb(155,21,25);width: 100%;"><i class="las la-wallet" style="margin-right:3%"></i><h5 style="  display: inline;
+">R$ 250.000</h5></button>
 </div>
 </div>
 </div>
