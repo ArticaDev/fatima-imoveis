@@ -54,12 +54,12 @@
         <!-- End: Header - Mobile -->
         <!-- Start: Search -->
         <div class="row" id="searchbar" style="background-color: #9b1519; display:none;">
-          
+
             <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center">
-                
+
 
                 <input id="bairro" class="shadow" style="width: 100%;height: 40px;margin: 3%;"type="text" placeholder="Bairro">
-            
+
             </div>
             <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select id="rooms" class="shadow"
                     style="width: 100%;height: 40px;margin: 3%;">
@@ -77,6 +77,11 @@
                 </select></div>
             <div class="col d-xl-flex align-items-xl-center"><input id="price" class="shadow" type="text"
                     style="padding-left: 3%;width: 100%;height: 40px;margin: 5%;" placeholder="Valor Máx."></div>
+                    
+            <div class="col d-flex align-items-center">
+              <i class="la la-car search-btn-car"></i>
+              <i class="las la-table-tennis search-btn-pool"></i></div>
+
             <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><button id="search-btn"
                     class="btn border rounded shadow" type="button"
                     style="font-size:.8em;background-color: #ffffff;width: 90%;margin:5%;height: 40px;">Pesquisar</button>
@@ -109,17 +114,17 @@
 
     <script type="text/javascript">
         $(function () {
-    
+
             $('#search-btn').click(function() {
 
                 window.location.href = `{{url("pesquisar")}}?bairro=${$( "#bairro" ).val()}&rooms=${$( "#rooms" ).val()}&bathrooms=${$( "#bathrooms" ).val()}&price=${$( "#price" ).val()}`;
-                
+
 
              });
-    
-    
+
+
         });
-    
+
     </script>
 
 
