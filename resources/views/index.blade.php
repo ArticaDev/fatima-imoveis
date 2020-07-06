@@ -13,33 +13,33 @@
                             <div class="row">
                                 <div class="col-xl-4 d-flex flex-column justify-content-xl-center align-items-xl-center"
                                     style="margin-left: 10vw;padding: 0px;"><img
-                                        src="{{ 'images/'.$new_house->image->first()->filename }}" style="width: 380px; height:250px;">
+                                        src="{{ 'images/'.$new_house->image->first()->filename }}" style="width: 394px; height:100%;">
                                 </div>
                                 <div class="col" style="margin-right: 10vw;">
                                     <div
                                         class="row d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
                                         <div class="col d-xl-flex justify-content-xl-center">
-                                            <h1 style="color: #9b1519;font-weight: 300;">{{ $new_house->title }}</h1>
+                                          <h2 class="text-center"style="color: #9b1519;font-weight: 300; margin-bottom:5%;">{{ $new_house->title }}</h2>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-bottom: 3%;">
                                         <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><i
                                                 class="las la-home"
-                                                style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                            <h4>{{ $new_house->address->first()->bairro }}</h4>
+                                                style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                            <h5>{{ $new_house->address->first()->bairro }}</h5>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-bottom: 3%;">
 
                                         <div class="col d-xl-flex justify-content-xl-center"><i class="la la-bed"
-                                                style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                            <h4>{{ $new_house->rooms }} Quartos</h4>
+                                                style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                            <h5>{{ $new_house->rooms }} Quartos</h5>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-bottom: 3%;">
                                         <div class="col d-xl-flex justify-content-xl-center"><i class="las la-toilet"
-                                                style="font-size: 35px;margin-right: 5%;color: rgb(0,0,0);"></i>
-                                            <h4>{{ $new_house->bathrooms }} Banheiros</h4>
+                                                style="font-size: 30px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                            <h5>{{ $new_house->bathrooms }} Banheiros</h5>
                                         </div>
                                     </div>
                                     <div class="row" style="margin-bottom: 0%;">
@@ -134,14 +134,14 @@
                                         <h5 class="text-center">Com Garagem</h5>
                                     </div>
                                 </div>
-                            
+
                             @elseif($house->recreation==1)
                                 <div class="row" style="margin-bottom: 3%;">
                                     <div class="col d-flex justify-content-center"><i class="las la-swimming-pool" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                         <h5 class="text-center">Área de Lazer</h5>
                                     </div>
                                 </div>
-                            
+
                             @else
                                 <div class="row" style="margin-bottom: 3%;">
                                     <div class="col d-flex justify-content-center"><i class="las la-toilet" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
