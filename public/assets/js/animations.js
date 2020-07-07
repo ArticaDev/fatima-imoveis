@@ -41,6 +41,15 @@ $("html, body").animate({ scrollTop:0}, "slow")
 $("html, body").animate({ scrollTop: $(document).height() }, "slow")
   })
 
+$(".search-btn-pool").click(function(){
+$(this).toggleClass("white")
+})
+
+$(".search-btn-car").click(function(){
+$(this).toggleClass("white")
+})
+
+
 })
 
 
