@@ -38,11 +38,18 @@ jobs:
           key: v1-dependencies-{{ checksum "composer.json" }}
           paths:
             - ./vendor
+
+      - persist_to_workspace:
+          root: public
+          paths:
+            - '*' 
             
   deploy:
     machine:
       enabled: true
     steps:
+      - attach_workspace:
+          at: public
 
       - add_ssh_keys:
           fingerprints:
