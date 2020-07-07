@@ -137,7 +137,7 @@
 
                             @elseif($house->recreation==1)
                                 <div class="row" style="margin-bottom: 3%;">
-                                    <div class="col d-flex justify-content-center"><i class="las la-swimming-pool" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
+                                    <div class="col d-flex justify-content-center"><i class="las la-table-tennis" style="font-size: 26px;margin-right: 5%;color: rgb(0,0,0);"></i>
                                         <h5 class="text-center">Área de Lazer</h5>
                                     </div>
                                 </div>
