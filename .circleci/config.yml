@@ -40,7 +40,7 @@ jobs:
             - ./vendor
 
       - persist_to_workspace:
-          root: public
+          root: .
           paths:
             - '*' 
             
@@ -49,16 +49,16 @@ jobs:
       enabled: true
     steps:
       - attach_workspace:
-          at: public
+          at: project
 
-      - add_ssh_keys:
-          fingerprints:
-            - "5c:54:11:82:18:06:40:6e:10:08:cd:c6:4b:e5:01:6c"
+      # - add_ssh_keys:
+      #     fingerprints:
+      #       - "5c:54:11:82:18:06:40:6e:10:08:cd:c6:4b:e5:01:6c"
 
-      - run:
-          name: Deploy Over SSH
-          command: |
-            scp -P 65002 -r project/* $SSH_USER@$SSH_HOST:domains/fatimacorretora.com/lel/
+      # - run:
+      #     name: Deploy Over SSH
+      #     command: |
+      #       scp -P 65002 -r project/* $SSH_USER@$SSH_HOST:domains/fatimacorretora.com/lel/
 workflows:
   version: 2
   build-and-deploy:
