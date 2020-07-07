@@ -39,11 +39,11 @@ jobs:
           paths:
             - ./vendor
             
-   deploy:
-     machine:
-       enabled: true
-     steps:
-       - run:
-           name: Deploy Over SSH
-           command: |
-             ssh $SSH_USER@$SSH_HOST "mkdir fim"
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: Deploy Over SSH
+          command: |
+            ssh $SSH_USER@$SSH_HOST "mkdir fim"
