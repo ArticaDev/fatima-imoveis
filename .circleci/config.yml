@@ -51,7 +51,7 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            scp -p 65002 -r * $SSH_USER@$SSH_HOST:/domains/fatimacorretora.com/lel/
+            scp -P 65002 -r * $SSH_USER@$SSH_HOST:/domains/fatimacorretora.com/lel/
 workflows:
   version: 2
   build-and-deploy:
