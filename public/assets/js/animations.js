@@ -41,12 +41,18 @@ $("html, body").animate({ scrollTop:0}, "slow")
 $("html, body").animate({ scrollTop: $(document).height() }, "slow")
   })
 
+
+  window.garage = '';
+  window.recreation = '';
+
 $(".search-btn-pool").click(function(){
-$(this).toggleClass("white")
+$(this).toggleClass("white");
+recreation = 1;
 })
 
 $(".search-btn-car").click(function(){
-$(this).toggleClass("white")
+$(this).toggleClass("white");
+garage=1;
 })
 
 

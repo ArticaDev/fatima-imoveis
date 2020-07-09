@@ -98,17 +98,31 @@ class HouseController extends Controller
         $house = House::with('address','image')->find($casa)->first();
         return view('house',compact('house'));
     }
-    public function search()
-    {
+    public function search(Request $request)
+    {    
+        
+        $search_args =array(
+           'rooms' => ['>=','(int)$request->rooms'],
+           'bathrooms' => ['>=','(int)$request->bathrooms'],
+           'price' => ['<=','(double)str_replace(",", ".", str_replace(["R$","."], "", $request->price))'],
+           'garage' => ['=','(int)$request->garage'],
+           'recreation' => ['=','(int)$request->recreation'],
+
+        );
+
+        $query_args = [];
+         
+        foreach ($search_args as $key => $value) {
+            if($request->has($key) && $request->$key!=""){
+                array_push($query_args,[$key,$value[0],eval('return '.$value[1].';')]);
+            }
+        }
+    
 
         $houses = House::with('image','address')->whereHas('address', function ($query) {
             return $query->where('bairro', 'LIKE', '%'.request()->bairro.'%');
-        })->where([
-            ['rooms','>=',(int)request()->rooms],
-            ['bathrooms','>=',(int)request()->bathrooms],
-            ['price','<=',(double)str_replace(',', '.', str_replace(['R$','.'], '', request()->price))]
-        ])->paginate(6);
-        
+        })->where($query_args)->latest()->paginate(6);
+         
         return view('index',compact('houses'))->render();
 
     }
