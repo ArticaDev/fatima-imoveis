@@ -21,5 +21,5 @@ Route::get('pesquisar', 'HouseController@search');
 
 Auth::routes();
 
-Route::get('/admin', 'HomeController@index')->name('home');
+Route::resource('admin', 'HomeController');
 

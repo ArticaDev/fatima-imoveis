@@ -16,7 +16,7 @@
 
     <div class="w-100 p-3 row justify-content-center">
         <div class="col">
-            <form style="min-width: 200px;" id="house-info" action="{{ route('casas.store') }}"
+            <form style="min-width: 200px;" id="house-info" action="{{ route('admin.store') }}"
                 enctype="multipart/form-data" method="POST">
                 @csrf
                 <div class="form-group">
