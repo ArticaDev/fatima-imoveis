@@ -67,3 +67,7 @@ h6{
   color: white!important;
   transition: 1s;
 }
+.page-link{
+  background-color: rgb(155,21,25) !important;
+  border-color: white !important;
+}
