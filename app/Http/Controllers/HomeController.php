@@ -73,6 +73,33 @@ class HomeController extends Controller
 
     }
 
+
+    public function update(Request $request, $casa)
+    {
+
+        $house = House::find($casa);
+        $house->title = $request->input('title');
+        $house->description = $request->input('description');
+        $house->bathrooms = (int)$request->input('bathrooms');
+        $house->rooms = (int)$request->input('rooms');
+        $house->garage = (int)$request->input('garage');
+        $house->recreation = (int)$request->input('recreation');
+        $house->price = (double)str_replace(',', '.', str_replace(['R$','.'], '', $request->input('price')));
+        $house->update();
+
+        $address = Address::find($house->address->first()->id);
+        $address->cep = $request->input('cep');
+        $address->logradouro = $request->input('logradouro');
+        $address->bairro =$request->input('bairro');
+        $address->localidade = $request->input('localidade');
+        $address->uf = $request->input('uf');         
+        $address->update();
+
+
+        return redirect('/admin')->with('success', 'Casa atualizada com sucesso');
+
+    }
+
     public function destroy($casa)
     {
 
@@ -80,6 +107,11 @@ class HomeController extends Controller
         $house->delete();
         return redirect('/admin')->with('success', 'Casa deletada com sucesso');
 
+    }
+    public function edit($casa)
+    {   
+        $house = House::with('address','image')->find($casa);
+        return view('home',compact('house'));
     }
 
 

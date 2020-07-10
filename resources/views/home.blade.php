@@ -10,31 +10,37 @@
 </style>
 
 <div class="container">
+
+    @if (!isset($house))
     <div class="w-100 p-3">
         <input form="house-info" id="uploadFile" name="uploadFile[]" type="file" multiple accept="image">
     </div>
+    @endif
 
     <div class="w-100 p-3 row justify-content-center">
         <div class="col">
-            <form style="min-width: 200px;" id="house-info" action="{{ route('admin.store') }}"
+            <form style="min-width: 200px;" id="house-info" action="{{ isset($house)? route('admin.update', $house->id):route('admin.store') }}"
                 enctype="multipart/form-data" method="POST">
+                @if(isset($house))
+                    @method('PUT')
+                @endif                
                 @csrf
                 <div class="form-group">
                     <label for="title">Título</label>
-                    <input type="text" class="form-control" name="title" id="title">
+                    <input type="text" class="form-control" name="title" id="title" value="{{ isset($house) ? $house->title:'' }}">
                     <label for="price">Preço</label>
-                    <input type="text" class="form-control" name="price" id="price" placeholder="0">
+                    <input type="text" class="form-control" name="price" id="price" placeholder="0" value="{{ isset($house) ?  number_format($house->price, 2, '.', ''):'' }}">
                     <div class="form-row">
                         <div class="col">
 
                             <label for="rooms">Quartos</label>
-                            <input type="number" class="form-control" name="rooms" id="rooms" placeholder="0">
+                            <input type="number" class="form-control" name="rooms" id="rooms" placeholder="0" value="{{ isset($house) ? $house->rooms :0 }}">
                         </div>
 
                         <div class="col">
 
-                            <label for="rooms">Banheiros</label>
-                            <input type="number" class="form-control" name="bathrooms" id="bathrooms" placeholder="0">
+                            <label for="bathrooms">Banheiros</label>
+                            <input type="number" class="form-control" name="bathrooms" id="bathrooms" placeholder="0" value="{{ isset($house) ? $house->bathrooms :0 }}">
                         </div>
 
                     </div>
@@ -43,16 +49,16 @@
                         <div class="col">
                             <label for="garage">Garagem:</label>
 
-                            <select class="form-control" name="garage" id="garage">
+                            <select value="0" class="form-control" name="garage" id="garage">
                                 <option value="1">Sim</option>
-                                <option value="0">Não</option>
+                                <option value="0" {{ isset($house)&&$house->garage==0 ? 'selected'  : '' }}>Não</option>
                             </select>
                         </div>
                         <div class="col">
                             <label for="recreation">Área para lazer:</label>
                             <select class="form-control" name="recreation" id="recreation">
                                 <option value="1">Sim</option>
-                                <option value="0">Não</option>
+                                <option value="0" {{ isset($house)&&$house->recreation==0 ? 'selected'  : '' }}>Não</option>
                             </select>
                         </div>
                     </div>
@@ -60,22 +66,22 @@
                 </div>
                 <div class="form-group form-row">
                     <label for="description">Descrição</label>
-                    <textarea class="form-control" name="description" id="description" rows="3"></textarea>
+                    <textarea class="form-control" name="description" id="description" rows="3" >{{ isset($house) ? $house->description :'' }}</textarea>
                 </div>
-                <button class="btn btn-secondary" type="submit">Enviar</button>
+                <button class="btn btn-secondary" type="submit">{{ isset($house)?'Atualizar':'Enviar' }}</button>
             
         </div>
         <div class="col">
             <label for="cep">CEP</label>
-            <input type="text" class="form-control" name="cep" id="cep">
+            <input type="text" class="form-control" name="cep" id="cep" value={{ isset($house) ? $house->address->first()->cep:'' }}>
             <label for="logradouro">Logradouro</label>
-            <input type="text" class="form-control" name="logradouro" id="logradouro">
+            <input type="text" class="form-control" name="logradouro" id="logradouro" value={{ isset($house) ? $house->address->first()->logradouro:'' }}>
             <label for="bairro">Bairro</label>
-            <input type="text" class="form-control" name="bairro" id="bairro">
+            <input type="text" class="form-control" name="bairro" id="bairro" value={{ isset($house) ? $house->address->first()->bairro:'' }}>
             <label for="localidade">Cidade</label>
-            <input type="text" class="form-control" name="localidade" id="localidade">
+            <input type="text" class="form-control" name="localidade" id="localidade" value={{ isset($house) ? $house->address->first()->localidade:'' }}>
             <label for="uf">UF</label>
-            <input type="text" class="form-control" name="uf" id="uf">
+            <input type="text" class="form-control" name="uf" id="uf" value={{ isset($house) ? $house->address->first()->uf:'' }}>
 
         </div>
     </form>
@@ -101,8 +107,7 @@
             maxFileSize: 15000,
 
         });
-
-
+        
 
         $("#cep").change(function () {
             numberval = $('#cep').val();
