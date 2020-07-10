@@ -33,7 +33,6 @@ class HomeController extends Controller
     public function create(){
         return view('home');
     }
-
     public function store(Request $request)
     {
 
@@ -74,7 +73,14 @@ class HomeController extends Controller
 
     }
 
+    public function destroy($casa)
+    {
 
+        $house = House::find($casa);
+        $house->delete();
+        return redirect('/admin')->with('success', 'Casa deletada com sucesso');
+
+    }
 
 
 }

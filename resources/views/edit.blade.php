@@ -53,10 +53,15 @@
                                 </div>
                             </div>
                             <div class="row" style="margin-bottom: 5%;">
+                            
+                            <form action="{{ route('admin.destroy',$house->id) }}" method="POST">
+                                <a class="btn btn-info ml-1" href="{{ route('admin.edit',$house->id) }}">Editar</a>
+                                {{-- <a class="btn btn-danger ml-1" href="{{ route('admin.destroy',$house->id) }}">Excluir</a> --}}
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger ml-1">Excluir</button>
 
-                                <a class="btn btn-info ml-2" href="{{ route('admin.edit',$house->id) }}">Editar</a>
-                                <a class="btn btn-danger ml-2" href="{{ route('admin.show',$house->id) }}">Excluir</a>
-
+                            </form>
                             </div>
  
 
