@@ -75,7 +75,7 @@
                     <option value="2">2 Banheiros</option>
                     <option value="3">3+ Banheiros</option>
                 </select></div>
-            <div class="col d-xl-flex align-items-xl-center"><input id="price" class="shadow" type="text"
+            <div class="col d-xl-flex align-items-xl-center"><input id="price" class="shadow display-price" type="text"
                     style="padding-left: 3%;width: 100%;height: 40px;margin: 5%;" placeholder="Valor Máx."></div>
                     
             <div class="col d-flex align-items-center">
@@ -114,6 +114,12 @@
 
     <script type="text/javascript">
         $(function () {
+
+            $('.display-price').priceFormat({
+                prefix: 'R$ ',
+                centsSeparator: ',',
+                thousandsSeparator: '.'
+            });
 
             $('#search-btn').click(function() {
 

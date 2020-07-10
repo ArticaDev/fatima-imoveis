@@ -180,11 +180,6 @@
 <script type="text/javascript">
     $(function () {
 
-        $('.display-price').priceFormat({
-            prefix: 'R$ ',
-            centsSeparator: ',',
-            thousandsSeparator: '.'
-        });
 
         $('.carousel-item').first().addClass("active");
 
