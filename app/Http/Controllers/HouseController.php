@@ -75,7 +75,7 @@ class HouseController extends Controller
             }
         }
 
-        return redirect('/home')->with('success', 'Post Created');
+        return redirect('/admin')->with('success', 'Post Created');
 
     }
     public function fetchCep(Request $request)
