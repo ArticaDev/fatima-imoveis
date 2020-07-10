@@ -13,7 +13,7 @@
                             <div class="row">
                                 <div class="col-xl-4 d-flex flex-column justify-content-xl-center align-items-xl-center"
                                     style="margin-left: 10vw;padding: 0px;"><img
-                                        src="{{ 'images/'.$new_house->image->first()->filename }}" style="width: 394px; height:100%;">
+                                        src="{{ 'images/'.$new_house->image->first()->filename }}" style="width: 394px; height:272px;">
                                 </div>
                                 <div class="col" style="margin-right: 10vw;">
                                     <div

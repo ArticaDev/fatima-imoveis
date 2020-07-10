@@ -55,6 +55,16 @@ $(this).toggleClass("white");
 garage=1;
 })
 
+$('#emailIcon').click(function() {
+       var input = document.createElement('input');
+       input.setAttribute('value', 'fatima.llima@hotmail.com');
+       document.body.appendChild(input);
+       input.select();
+       document.execCommand('copy');
+       document.body.removeChild(input);
+       alert("O email foi copiado para a área de transferência");
+     })
+
 
 })
 
