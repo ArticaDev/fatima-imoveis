@@ -48,6 +48,21 @@
                     style="height: 54px;"><i class="las la-bath" style="font-size: 36px;margin-left: 3%;"></i>
                     <h3 style="margin: 0px;margin-left: 15px;">{{ $house->bathrooms  }} Banheiros</h3>
                 </div>
+
+                @if($house->garage==1)
+                <div class="col d-flex flex-row justify-content-center align-items-center align-items-xl-center"
+                    style="height: 54px;"><i class="la la-car" style="font-size: 36px;margin-left: 3%;"></i>
+                    <h3 style="margin: 0px;margin-left: 15px;">Com Garagem</h3>
+                </div>
+                @endif
+
+                @if($house->recreation==1)
+                <div class="col d-flex flex-row justify-content-center align-items-center align-items-xl-center"
+                    style="height: 54px;"><i class="las la-table-tennis" style="font-size: 36px;margin-left: 3%;"></i>
+                    <h3 style="margin: 0px;margin-left: 15px;">Área de Lazer</h3>
+                </div>
+                @endif
+
                 <div class="col d-flex flex-row justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
                     style="height: 54px;"><i class="la la-money"
                         style="font-size: 36px;margin-left: 3%;color: rgb(58,204,160);"></i>
