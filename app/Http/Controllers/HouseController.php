@@ -17,8 +17,7 @@ class HouseController extends Controller
     public function index()
     {   
         $new_houses = House::with('address','image')->take(3)->latest()->get();
-        $houses = House::with('address','image')->latest()->where('updated_at', '<', $new_houses->last()->updated_at)->paginate(6);
-        // $houses = House::with('address','image')->latest()->paginate(6);
+        $houses = House::with('address','image')->latest()->paginate(6);
 
        return view('index',compact('new_houses','houses'));
     }
