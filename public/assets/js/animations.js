@@ -1,5 +1,8 @@
 $(function(){
 
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
   //color navbar change
 var tela = window.innerWidth
   $(window).scroll(function(){
@@ -62,7 +65,11 @@ $('#emailIcon').click(function() {
        input.select();
        document.execCommand('copy');
        document.body.removeChild(input);
-       alert("O email foi copiado para a área de transferência");
+
+       $('#emailIcon[data-toggle="tooltip"]').attr('data-original-title', "Email copiado !")
+       .tooltip('dispose')
+       .tooltip('show');
+
      })
 
 
