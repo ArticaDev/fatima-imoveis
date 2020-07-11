@@ -18,29 +18,37 @@
     @endif
 
     <div class="w-100 p-3 row justify-content-center">
+        <form class="needs-validation ml-5" novalidate role="form" style="min-width: 100%;" id="house-info" action="{{ isset($house)? route('admin.update', $house->id):route('admin.store') }}"
+            enctype="multipart/form-data" method="POST">
+            @if(isset($house))
+                @method('PUT')
+            @endif                
+            @csrf
+        <div class="form-row">
         <div class="col">
-            <form style="min-width: 200px;" id="house-info" action="{{ isset($house)? route('admin.update', $house->id):route('admin.store') }}"
-                enctype="multipart/form-data" method="POST">
-                @if(isset($house))
-                    @method('PUT')
-                @endif                
-                @csrf
+
                 <div class="form-group">
                     <label for="title">Título</label>
-                    <input type="text" class="form-control" name="title" id="title" value="{{ isset($house) ? $house->title:'' }}">
+                    <input type="text" class="form-control" name="title" id="title" value="{{ isset($house) ? $house->title:'' }}" required>
+                    <div class="invalid-feedback">
+                        Por favor escreva um título para o anúncio
+                    </div>
                     <label for="price">Preço</label>
-                    <input type="text" class="form-control" name="price" id="price" placeholder="0" value="{{ isset($house) ?  number_format($house->price, 2, '.', ''):'' }}">
+                    <input type="text" class="form-control" name="price" id="price" placeholder="0" value="{{ isset($house) ?  number_format($house->price, 2, '.', ''):'' }}" required>
+                    <div class="invalid-feedback">
+                        Por insira um preço
+                    </div>
                     <div class="form-row">
                         <div class="col">
 
                             <label for="rooms">Quartos</label>
-                            <input type="number" class="form-control" name="rooms" id="rooms" placeholder="0" value="{{ isset($house) ? $house->rooms :0 }}">
+                            <input type="number" class="form-control" name="rooms" id="rooms" placeholder="1" value="{{ isset($house) ? $house->rooms :1 }}">
                         </div>
 
                         <div class="col">
 
                             <label for="bathrooms">Banheiros</label>
-                            <input type="number" class="form-control" name="bathrooms" id="bathrooms" placeholder="0" value="{{ isset($house) ? $house->bathrooms :0 }}">
+                            <input type="number" class="form-control" name="bathrooms" id="bathrooms" placeholder="1" value="{{ isset($house) ? $house->bathrooms :1 }}">
                         </div>
 
                     </div>
@@ -62,28 +70,34 @@
                             </select>
                         </div>
                     </div>
-
-                </div>
-                <div class="form-group form-row">
                     <label for="description">Descrição</label>
-                    <textarea class="form-control" name="description" id="description" rows="3" >{{ isset($house) ? $house->description :'' }}</textarea>
+                    <textarea class="form-control" name="description" id="description" rows="3" required>{{ isset($house) ? $house->description :'' }}</textarea>
+                    <div class="invalid-feedback">
+                        Por favor escreva uma descrição para o anúncio
+                    </div>
                 </div>
+
                 <button class="btn btn-secondary" type="submit">{{ isset($house)?'Atualizar':'Enviar' }}</button>
             
         </div>
         <div class="col">
+
             <label for="cep">CEP</label>
-            <input type="text" class="form-control" name="cep" id="cep" value={{ isset($house) ? $house->address->first()->cep:'' }}>
+            <input type="text" class="form-control" name="cep" id="cep" value="{{ isset($house) ? $house->address->first()->cep:'' }}" required>
+            <div class="invalid-feedback">
+                Por favor digite o CEP da casa
+            </div>
             <label for="logradouro">Logradouro</label>
-            <input type="text" class="form-control" name="logradouro" id="logradouro" value={{ isset($house) ? $house->address->first()->logradouro:'' }}>
+            <input type="text" class="form-control" name="logradouro" id="logradouro" value="{{ isset($house) ? $house->address->first()->logradouro:'' }}" required>
             <label for="bairro">Bairro</label>
-            <input type="text" class="form-control" name="bairro" id="bairro" value={{ isset($house) ? $house->address->first()->bairro:'' }}>
+            <input type="text" class="form-control" name="bairro" id="bairro" value="{{ isset($house) ? $house->address->first()->bairro:'' }}" required>
             <label for="localidade">Cidade</label>
-            <input type="text" class="form-control" name="localidade" id="localidade" value={{ isset($house) ? $house->address->first()->localidade:'' }}>
+            <input type="text" class="form-control" name="localidade" id="localidade" value="{{ isset($house) ? $house->address->first()->localidade:'' }}" required>
             <label for="uf">UF</label>
-            <input type="text" class="form-control" name="uf" id="uf" value={{ isset($house) ? $house->address->first()->uf:'' }}>
+            <input type="text" class="form-control" name="uf" id="uf" value="{{ isset($house) ? $house->address->first()->uf:'' }}" required>
 
         </div>
+    </div>
     </form>
 
 
@@ -116,7 +130,7 @@
                     type: "GET",
                     dataType: "json",
                     url: "https://viacep.com.br/ws/" + numberval +
-                        "/json/", // replace 'PHP-FILE.php with your php file
+                        "/json/", 
                     data: {
                         number: numberval
                     },
@@ -141,4 +155,22 @@
     });
 
 </script>
+
+<script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
 @endsection
