@@ -11,6 +11,13 @@
 
 <div class="container">
 
+
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <strong>Erro!</strong> Por favor lembre-se de incluir as fotos da casa através do botão abaixo<br><br>
+    </div>
+    @endif
+
     @if (!isset($house))
     <div class="w-100 p-3">
         <input form="house-info" id="uploadFile" name="uploadFile[]" type="file" multiple accept="image">

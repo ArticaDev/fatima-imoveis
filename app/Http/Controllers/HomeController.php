@@ -36,6 +36,10 @@ class HomeController extends Controller
     public function store(Request $request)
     {
 
+        $this->validate($request, [
+            'uploadFile' => 'required'
+        ]);
+
         $house = new House;
         $house->title = $request->input('title');
         $house->description = $request->input('description');
