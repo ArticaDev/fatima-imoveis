@@ -83,7 +83,13 @@ class HouseController extends Controller
         $houses = House::with('image','address')->whereHas('address', function ($query) {
             return $query->where('bairro', 'LIKE', '%'.request()->bairro.'%');
         })->where($query_args)->latest()->paginate(6);
-         
+        
+        if($houses->isEmpty()){
+
+            return view('index',compact('houses'))->with('error','Nenhum resultado encontrado')->render();
+
+        }
+
         return view('index',compact('houses'))->render();
 
     }
