@@ -1,0 +1,25 @@
+version: 2
+jobs:           
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - attach_workspace:
+          at: project
+
+      - add_ssh_keys:
+          fingerprints:
+            - "5c:54:11:82:18:06:40:6e:10:08:cd:c6:4b:e5:01:6c"
+
+      - run:
+          name: Deploy Over SSH
+          command: |
+            ssh -p 65002 $SSH_USER@$SSH_HOST "cd domains/fatimacorretora.com/fatima-imoveis && git pull origin develop && cp -r public/assets/. ../public_html/assets"
+workflows:
+  version: 2
+  ssh-deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: develop
