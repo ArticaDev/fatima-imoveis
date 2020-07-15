@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<div class="container">
+<div class="container" style="min-height:62.5vh;">
     <!-- Start: Slider -->
     @isset($new_houses)
 
@@ -77,7 +77,7 @@
     @isset($error)
     <div class="alert alert-danger">
         <p>{{ $error }}</p>
-    </div>       
+    </div>
     @endisset
     <!-- End: Slider -->
     <!-- Start: Card Group -->
