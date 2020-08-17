@@ -124,7 +124,7 @@
             showUpload: false,
             initialPreviewDownloadUrl: false,
             language: "pt-BR",
-            allowedFileExtensions: ['jpg', 'png', 'gif'],
+            allowedFileExtensions: ['jpeg','jpg', 'png', 'gif'],
             maxFileSize: 15000,
 
         });
