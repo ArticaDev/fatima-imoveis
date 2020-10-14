@@ -60,41 +60,25 @@
         </nav>
         <!-- End: Header - Mobile -->
         <!-- Start: Search -->
-        <div class="row" id="searchbar" style="background-color: #9b1519; display:none;">
-
-            <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center">
-
-
-                <input id="bairro" class="shadow" style="width: 100%;height: 40px;margin: 3%;" type="text"
-                    placeholder="Bairro">
-
-            </div>
-            <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select id="rooms"
-                    class="shadow" style="width: 100%;height: 40px;margin: 3%;">
-                    <option value="1" selected="">Quartos</option>
-                    <option value="1">1 Quarto</option>
-                    <option value="2">2 Quartos</option>
-                    <option value="3">3+ Quartos</option>
-                </select></div>
-            <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><select id="bathrooms"
-                    class="shadow" style="width: 100%;height: 40px;margin: 3%;">
-                    <option value="1" selected="">Banheiros</option>
-                    <option value="1">1 Banheiro</option>
-                    <option value="2">2 Banheiros</option>
-                    <option value="3">3+ Banheiros</option>
-                </select></div>
-            <div class="col d-xl-flex align-items-xl-center"><input id="price" class="shadow display-price" type="text"
-                    style="padding-left: 3%;width: 100%;height: 40px;margin: 5%;" placeholder="Valor Máx."></div>
-
-            <div class="col d-flex align-items-center">
-                <i class="la la-car search-btn-car"></i>
-                <i class="las la-table-tennis search-btn-pool"></i></div>
-
-            <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><button id="search-btn"
-                    class="btn border rounded shadow" type="button"
-                    style="font-size:.8em;background-color: #ffffff;width: 90%;margin:5%;height: 40px;">Pesquisar</button>
-            </div>
+        
+<section class="searchbar">
+    <div class="container ">
+        <div class="row d-flex justify-content-center align-items-center" style="background-color: #9b1519; height: 100%; padding-top: 5px;">
+            <div class="hide" style="display: contents;">
+            <div class="col-xl-2 d-xl-flex align-items-xl-center"><select id="rooms" style="width: 100%;height: 30px;"><option value="1" selected>Quartos</option><option value="2">1</option><option value="3">2</option><option value="15">3</option><option value>4+</option></select></div>
+            <div class="col-xl-2 d-xl-flex align-items-xl-center"><select id="bathrooms" style="width: 100%;height: 30px;"><option value="1" selected>Banheiros</option><option value="2">1</option><option value="3">2</option><option value="15">3+</option></select></div></div> 
+            <div class="col d-xl-flex align-items-xl-center"><select id="categories" style="width: 100%;height: 30px;"><option value="1" selected>Casa</option><option value="2">Apartamento</option><option value="3">Lotes/Terrenos</option></select></div>
+            <div class="col-xl-2 d-flex justify-content-xl-center align-items-xl-center"><input id="bairro" style="width: 100%;height: 30px;" type="text"
+                placeholder="Bairro"></div>
+            <div class="col d-xl-flex align-items-xl-center"><input class="display-price" id="price" type="text" style="width: 100%;height: 30px;" placeholder="Valor Máx." /></div>
+            <div class="col d-xl-flex align-items-xl-center"><input id="meters" type="text" style="width: 100%;" placeholder="0 m²" /></div>
         </div>
+        <div class="row d-flex justify-content-center align-items-center" style="background-color: #9b1519;height: 54px;">
+            <div class="col-xl-2 "><button id="search-btn" class="btn border rounded shadow" type="button" style="background-color: #ffffff;width: 100%;margin-top: 8px;margin-bottom: 5%;">Pesquisar</button></div>
+        </div>
+    </div>
+</section>
+
         <!-- End: Search -->
     </div>
     @yield('content')
@@ -131,6 +115,11 @@
             thousandsSeparator: '.'
         });
 
+        $('#meters').priceFormat({
+            prefix: '',
+            suffix: ' m²'
+        });
+
         $('#search-btn').click(function() {
 
             window.location.href =
@@ -143,5 +132,7 @@
 
 
 </body>
+
+
 
 </html>
