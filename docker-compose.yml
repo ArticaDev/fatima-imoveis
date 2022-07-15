@@ -1,36 +1,10 @@
 version: '3.5'
 
 services:
-  laravel-app:
-    build:
-      context: '.'
-
-    container_name: laravel-app
-
+  fatima-app:
+    build: '.'
+    container_name: fatima-app
     volumes:
-      - .:/var/www/html
+      - .:/app
     ports:
       - 8000:80
-#     networks:
-#       backend:
-#         aliases:
-#           - laravel-app
-
-#   mysql-db:
-#     image: mysql:5.7
-#     container_name: mysql-db
-#     volumes:
-#       - ./run/var:/var/lib/mysql
-#     environment:
-#       - MYSQL_ROOT_PASSWORD=securerootpassword
-#       - MYSQL_DATABASE=db
-#       - MYSQL_USER=dbuser
-#       - MYSQL_PASSWORD=secret
-#     networks:
-#       backend:
-#         aliases:
-#           - db
-
-# networks:
-#   backend:
-#     name: backend-network
